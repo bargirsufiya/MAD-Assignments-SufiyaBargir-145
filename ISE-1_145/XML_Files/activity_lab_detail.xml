@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <!-- Lab Number -->
+    <TextView
+        android:id="@+id/labNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab 1"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <!-- Lab Title -->
+    <TextView
+        android:id="@+id/labTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAVA Programming Lab"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"/>
+
+    <!-- Lab Image -->
+    <ImageView
+        android:id="@+id/labImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
+
+    <!-- Lab Description -->
+    <TextView
+        android:id="@+id/labDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This lab is used to practice Java programming."
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"/>
+
+    <!-- Back Button -->
+    <Button
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="goBack"/>
+
+</LinearLayout>

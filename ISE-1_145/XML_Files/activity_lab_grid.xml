@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:padding="10dp">
+
+        <!-- LAB 1 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/lab1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 1"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- LAB 2 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/lab2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 2"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- LAB 3 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/lab3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 3"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- LAB 4 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/lab4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 4"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- LAB 5 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/lab5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 5"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- LAB 6 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/lab6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 6"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- LAB 7 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/lab7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab7"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 7"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- LAB 8 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/lab8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab8"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 8"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- LAB 9 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/lab9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab9"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 9"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- LAB 10 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/lab10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 10"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- LAB 11 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/lab11_new"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab11_new"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 11"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- LAB 12 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/lab12_new"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lab12_new"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 12"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </GridLayout>
+
+</ScrollView>
