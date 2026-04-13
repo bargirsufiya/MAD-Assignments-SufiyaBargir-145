@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:padding="20dp">
+
+    <!-- Title -->
+    <TextView
+        android:text="Student Marks Table"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"/>
+
+    <!-- Header Row -->
+    <TableRow>
+        <TextView android:text="Name" android:textStyle="bold"/>
+        <TextView android:text="Subject" android:textStyle="bold"/>
+        <TextView android:text="Marks" android:textStyle="bold"/>
+    </TableRow>
+
+    <!-- Row 1 -->
+    <TableRow>
+        <TextView android:text="Sufiya"/>
+        <TextView android:text="Java"/>
+        <TextView android:text="90"/>
+    </TableRow>
+
+    <!-- Row 2 -->
+    <TableRow>
+        <TextView android:text="Ayesha"/>
+        <TextView android:text="Python"/>
+        <TextView android:text="85"/>
+    </TableRow>
+
+    <!-- Row 3 -->
+    <TableRow>
+        <TextView android:text="Sara"/>
+        <TextView android:text="C++"/>
+        <TextView android:text="88"/>
+    </TableRow>
+
+    <!-- Back Button -->
+    <TableRow>
+        <Button
+            android:id="@+id/backBtn"
+            android:text="Back"
+            android:layout_span="3"
+            android:layout_marginTop="20dp"/>
+    </TableRow>
+
+</TableLayout>
